@@ -1,6 +1,6 @@
 // src/components/Sidebar.js
 import React from 'react';
-
+import './Sidebar.css';
 const Sidebar = () => {
   return (
     <div className="sidebar">
@@ -11,19 +11,26 @@ const Sidebar = () => {
         <a href="/employees">Employees</a>
       </div>
       <div className="sidebar-item">
-        <a href="/core-h">Core H</a>
+        <a href="/core-h">Core HR</a>
       </div>
       <div className="sidebar-item">
-        <a href="/device">Device</a>
+        <a href="/device">Device Procurement</a>
       </div>
       <div className="sidebar-item">
         <a href="/tasks">Tasks</a>
+      </div>
+      <div className="sidebar-item">
+        <a href="/performance">Performance</a>
       </div>
       <div className="sidebar-item">
         <a href="/projects">Projects</a>
       </div>
       <div className="sidebar-item">
         <a href="/reports">Reports</a>
+      </div>
+
+      <div className="sidebar-item">
+        <a href="/Manage Clients">Manage Clients</a>
       </div>
       <div className="sidebar-item">
         <a href="/blog">Blog</a>

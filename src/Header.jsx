@@ -1,10 +1,10 @@
 // src/components/Header.js
 import React from 'react';
-import 'Header.css';
+import './Header.css';
 const Header = () => {
   return (
     <div className="header">
-      <div className="logo">Your Logo</div>
+      <div className="logo">PLUTO TV</div>
       <div className="nav">
         <a href="/email">Email</a>
         <a href="/settings">Settings</a>

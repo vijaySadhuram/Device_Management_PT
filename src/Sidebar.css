@@ -1,0 +1,22 @@
+/* src/components/Sidebar.css */
+.sidebar {
+    background-color: #ebcdcd;
+    color: #fff;
+    width: 20vw;
+    padding: 20px;
+    height: 100vh;
+  }
+  
+  .sidebar-item a {
+    text-decoration: none;
+    color: #111010;
+    font-weight: bold;
+    display: block;
+    margin-bottom: 10px;
+    
+  }
+  
+  .sidebar-item a:hover {
+    text-decoration: underline;
+  }
+  
