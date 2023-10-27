@@ -1,0 +1,12 @@
+.section{
+    background-color: rgb(242, 245, 248);
+    height:100vh;
+  
+}
+.addButton,.inviteButton{
+   margin: 2px;
+   border-radius: 20px; 
+   height: 9vh;
+   width: 12vw;
+   font-size: 1rem;
+}

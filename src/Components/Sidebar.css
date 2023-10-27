@@ -1,0 +1,33 @@
+/* Sidebar.css */
+
+.sidebar {
+    width: 250px;
+    background-color: #333; /* Background color for the sidebar */
+    color: #fff; /* Text color for links in the sidebar */
+    padding: 10px;
+    height: 100vh;
+  }
+  
+  .sidebar a {
+    color: #fff; /* Text color for links */
+    text-decoration: none;
+    display: block;
+    margin-bottom: 10px; /* Spacing between sidebar links */
+  }
+  
+  /* Active link style when a link is selected */
+  .sidebar a.active {
+    background-color: #007bff; /* Background color for active link */
+    font-weight: bold; /* Bold text for active link */
+    color: #fff; /* Text color for active link */
+    padding: 5px 10px; /* Padding for active link */
+    border-radius: 5px; /* Rounded corners for active link */
+  }
+  
+  /* Hover effect for sidebar links */
+  .sidebar a:hover {
+    background-color: #007bff; /* Background color on hover */
+    color: #fff; /* Text color on hover */
+    border-radius: 5px; /* Rounded corners on hover */
+  }
+  

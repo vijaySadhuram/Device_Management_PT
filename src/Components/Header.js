@@ -2,12 +2,15 @@ import React from 'react'
 
 import { Link } from 'react-router-dom';
 
-function Header() {
+function Header({ onMenuClick }) {
   return (
     <>
-    <nav>Get Ready to complete your Goal</nav>
+    <nav>Pluto TV - Drop in. Watch Free.</nav>
     <div className='header'>
      
+    <div className="menu-icon" onClick={onMenuClick}>
+        &#9776; {/* This is the hamburger menu icon */}
+    </div>
     <Link to="/">Home</Link>
     <Link to="/about">About</Link>
     <Link to="/contact">Contact</Link>

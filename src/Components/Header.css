@@ -119,3 +119,10 @@ button:hover,#deletbtn:hover{
 }
 
 
+.menu-icon {
+    display: flex;
+    font-size: 24px; /* You can adjust the size */
+    cursor: pointer;
+    margin-right: 10px; /* Add some right margin to separate it from the title */
+  }
+ 

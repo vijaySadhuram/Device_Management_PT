@@ -4,12 +4,12 @@ const Task = ({title,description,deletetask,index}) => {
   return (
     <div className='task'>
         <div>
-        <p>{title}</p>
+        <p >{title}</p>
         <span>{description}</span>
         
         </div>
         <button type="button" id ="deletbtn" onClick={()=>deletetask(index)
-        }>-</button>
+        } >-</button>
 
     </div>
   )

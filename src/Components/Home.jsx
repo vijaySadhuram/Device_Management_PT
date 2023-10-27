@@ -39,15 +39,15 @@ useEffect(() => {
     
   return (
     <div className='mainContainer'>
-      <h1>DAILY GOALS</h1>
+      <h1>Employee Details</h1>
       <form onSubmit={
         submitHandler
       }>
-      <input type="text" name="" id="" placeholder='Enter Title Here' value={title} onChange={(e)=>setTitle(e.target.value)}
+      <input type="text" name="" id="" placeholder='Name' value={title} onChange={(e)=>setTitle(e.target.value)}
    />
-      <textarea name="" id="" placeholder='Add Description Here' value={description} onChange={(e)=>setDescription(e.target.value)}></textarea>
+      <textarea name="" id="" placeholder='Email ID' value={description} onChange={(e)=>setDescription(e.target.value)}></textarea>
 
-      <button type="submit">ADD</button>
+      <button type="ADD">ADD</button>
 
       </form>
      
